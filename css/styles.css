@@ -437,7 +437,7 @@ body {
   color: var(--color-navy-blue);
   background-color: var(--color-cloud);
   margin-top: 0;
-  margin-bottom: 72px;
+  margin-bottom: 8px;
 }
 .team-list {
   display: flex;
