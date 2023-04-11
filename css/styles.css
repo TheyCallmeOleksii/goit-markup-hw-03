@@ -441,6 +441,8 @@ body {
   margin-bottom: 72px;
 }
 .team-list {
+  display: flex;
+  gap: 24px;
 }
 .team-item {
   background-color: var(--color-white);
