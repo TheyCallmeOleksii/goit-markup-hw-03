@@ -438,7 +438,7 @@ body {
   color: var(--color-navy-blue);
   background-color: var(--color-cloud);
   margin-top: 0;
-  margin-bottom: 8px;
+  margin-bottom: 72px;
 }
 .team-list {
   display: flex;
@@ -486,7 +486,8 @@ body {
 
 .footer {
   background-color: var(--color-navy-blue);
-  padding-top: 100px; та padding-bottom: 100px;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .footer-link {
