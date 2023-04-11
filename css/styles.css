@@ -82,14 +82,13 @@ button {
 
 /**
   |============================
-  | Base styles
+  | <Base styles
   |============================
 */
 
 body {
   font-family: var(--primary-font), sans-serif;
   font-style: normal;
-  font-weight: 400;
   font-size: 16px;
   line-height: 24px;
   color: var(--color-slate);
@@ -106,14 +105,15 @@ body {
 
 /**
   |============================
-  | Main page 
+  | /Base styles>
   |============================
 */
 
-.section {
-  padding-top: 120px;
-  padding-bottom: 120px;
-}
+/**
+  |============================
+  | <Basic settings
+  |============================
+*/
 
 .container {
   width: 1158px;
@@ -124,6 +124,41 @@ body {
 
   outline: 2px solid red;
 }
+
+.section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.title {
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+/**
+  |============================
+  | /basic settings>
+  |============================
+*/
+/**
+  |============================
+  | <Header
+  |============================
+*/
 
 .header {
   border-bottom: 1px solid #e7e9fc;
@@ -149,6 +184,7 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
+
 .logo-link {
   font-family: var(--secondary-font), sans-serif;
   font-weight: 800;
@@ -160,18 +196,17 @@ body {
   text-transform: uppercase;
   margin-right: 76px;
 }
-.logo-link:hover .logo-link:focus {
+.logo-link:hover,
+.logo-link:focus {
   color: var(--color-ocean);
 }
 .header-logo {
   font-family: var(--secondary-font), sans-serif;
-
   color: var(--color-navy-blue);
   text-decoration: none;
   text-transform: uppercase;
-
-  margin-right: 75px;
 }
+
 .nav-link {
   display: block;
   padding-top: 24px;
@@ -191,12 +226,16 @@ body {
 
 .nav-list-item {
 }
-.nav-link:hover {
-  color: var(--color-ocean);
-}
+.nav-link:hover,
 .nav-link:focus {
   color: var(--color-ocean);
 }
+
+/**
+  |============================
+  | /Header>
+  |============================
+*/
 .header-contacts {
   font-style: normal;
   margin-left: auto;
@@ -364,20 +403,6 @@ body {
   padding-bottom: 32px;
 }
 
-.hid-section {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
-}
-
 .action-section {
   padding-top: 0;
 }
@@ -404,6 +429,12 @@ body {
   display: block;
   width: 360px;
 }
+
+/**
+  |============================
+  | <4 Section
+  |============================
+*/
 
 .team-section {
   background-color: var(--color-cloud);
@@ -450,6 +481,13 @@ body {
   letter-spacing: 0.02em;
   color: var(--color-slate);
 }
+
+/**
+  |============================
+  | <Footer
+  |============================
+*/
+
 .footer {
   background-color: var(--color-navy-blue);
 }
@@ -464,6 +502,7 @@ body {
   text-decoration: none;
   text-transform: uppercase;
 }
+
 .footer-logo {
   font-family: var(--secondary-font), sans-serif;
   font-weight: 800;
@@ -474,9 +513,16 @@ body {
   text-decoration: none;
   text-transform: uppercase;
 }
+
 .footer-txt {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--color-cloud);
 }
+
+/**
+  |============================
+  | /Footer>
+  |============================
+*/
