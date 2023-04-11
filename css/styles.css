@@ -110,6 +110,11 @@ body {
   |============================
 */
 
+.section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
 .container {
   width: 1158px;
   margin-left: auto;
