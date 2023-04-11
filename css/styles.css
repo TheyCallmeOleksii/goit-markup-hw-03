@@ -532,7 +532,25 @@ body {
   |============================
 */
 
+.portfolio {
+  padding: 96px 0 120px;
+}
+
+.portfolio-elements {
+}
+
+.portfolio-main-btn {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+  margin-bottom: 72px;
+}
+
 .portfolio-btn {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  gap: 24px;
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -542,6 +560,10 @@ body {
   color: var(--color-iris);
   background-color: var(--color-cloud);
   cursor: pointer;
+  border-radius: 4px;
+  padding: 12px 24px;
+  display: inline-block;
+  border: 1px solid var(--color-cornflower);
 }
 .portfolio-btn:hover,
 .portfolio-btn:focus {
