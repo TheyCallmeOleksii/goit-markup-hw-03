@@ -115,6 +115,12 @@ body {
   |============================
 */
 
+.img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
 .container {
   width: 1158px;
   margin-left: auto;
@@ -151,7 +157,7 @@ body {
 
 /**
   |============================
-  | /basic settings>
+  | /Basic settings>
   |============================
 */
 /**
@@ -231,15 +237,11 @@ body {
   color: var(--color-ocean);
 }
 
-/**
-  |============================
-  | /Header>
-  |============================
-*/
 .header-contacts {
   font-style: normal;
   margin-left: auto;
 }
+
 .contacts-list {
   display: flex;
   align-items: center;
@@ -257,12 +259,23 @@ body {
   text-decoration: none;
   margin-right: 40px;
 }
-.contacts-link:hover {
-  color: var(--color-ocean);
-}
+
+.contacts-link:hover,
 .contacts-link:focus {
   color: var(--color-ocean);
 }
+
+/**
+  |============================
+  | /Header>
+  |============================
+*/
+
+/**
+  |============================
+  | <Hero
+  |============================
+*/
 .hero-section {
   background-color: var(--color-navy-blue);
   text-align: center;
@@ -313,44 +326,12 @@ body {
 .hero-btn:focus {
   background-color: var(--color-ocean);
 }
-.portfolio-btn {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  text-align: center;
-  letter-spacing: 0.04em;
-  color: var(--color-iris);
-  background-color: var(--color-cloud);
-  cursor: pointer;
-}
-.portfolio-btn:hover {
-  color: var(--color-white);
-  background-color: var(--color-ocean);
-}
-.portfolio-btn:focus {
-  color: var(--color-white);
-  background-color: var(--color-ocean);
-}
 
-.portfolio-container {
-  padding: 0;
-  margin: 0;
-  display: flex;
-  flex-wrap: wrap;
-  margin-left: -20px;
-  margin-top: -20px;
-}
-
-.portfolio-container > .portfolio-elements {
-  flex-basis: calc(100% / 3 - 20px);
-  margin-left: 20px;
-  margin-top: 20px;
-}
-
-.portfolio-link {
-  padding-bottom: 32px;
-}
+/**
+  |============================
+  | /Hero>
+  |============================
+*/
 
 .superior-section {
 }
@@ -361,12 +342,6 @@ body {
 
 .superior-list-item {
   width: 264px;
-}
-
-.img {
-  display: block;
-  max-width: 100%;
-  height: auto;
 }
 
 .superior-title {
@@ -404,6 +379,12 @@ body {
   padding-bottom: 32px;
 }
 
+/**
+  |============================
+  | <3 Section
+  |============================
+*/
+
 .action-section {
   padding-top: 0;
 }
@@ -430,6 +411,12 @@ body {
   display: block;
   width: 360px;
 }
+
+/**
+  |============================
+  | /3 Section
+  |============================
+*/
 
 /**
   |============================
@@ -485,6 +472,12 @@ body {
 
 /**
   |============================
+  | /4 Section>
+  |============================
+*/
+
+/**
+  |============================
   | <Footer
   |============================
 */
@@ -525,5 +518,53 @@ body {
 /**
   |============================
   | /Footer>
+  |============================
+*/
+
+/**
+  |============================
+  | <Portfolio
+  |============================
+*/
+
+.portfolio-btn {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: var(--color-iris);
+  background-color: var(--color-cloud);
+  cursor: pointer;
+}
+.portfolio-btn:hover,
+.portfolio-btn:focus {
+  color: var(--color-white);
+  background-color: var(--color-ocean);
+}
+
+.portfolio-container {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -20px;
+  margin-top: -20px;
+}
+
+.portfolio-container > .portfolio-elements {
+  flex-basis: calc(100% / 3 - 20px);
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.portfolio-link {
+  padding-bottom: 32px;
+}
+
+/**
+  |============================
+  | /Portfolio>
   |============================
 */
