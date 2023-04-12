@@ -599,7 +599,7 @@ body {
 }
 
 .portfolio-container > .portfolio-elements {
-  flex-basis: calc(100% / 3 - 20px);
+  flex-basis: calc((100% - 72px) / 4);
 }
 
 .portfolio-link {
