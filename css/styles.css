@@ -139,6 +139,8 @@ body {
 .title {
   margin-top: 0;
   margin-bottom: 8px;
+  font-weight: 500;
+  font-style: normal;
 }
 
 .visually-hidden {
@@ -257,7 +259,6 @@ body {
   letter-spacing: 0.02em;
   color: var(--color-slate);
   text-decoration: none;
-  margin-right: 40px;
 }
 
 .contacts-link:hover,
@@ -282,10 +283,10 @@ body {
   padding-top: 188px;
   padding-bottom: 188px;
 }
+
 .hero-container {
-  width: 1158px;
-  height: 600px;
 }
+
 .hero-title {
   font-weight: 700px;
   font-size: 56px;
@@ -300,6 +301,7 @@ body {
   display: block;
   max-width: 496px;
 }
+
 .hero-btn {
   display: block;
   padding: auto;
@@ -445,13 +447,11 @@ body {
 }
 .team-item {
   background-color: var(--color-white);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .team-container {
   padding: 32px 16px;
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66 0.08);
-  border-radius: 0px 0px 4px 4px;
 }
 
 .team-employee {
@@ -538,11 +538,6 @@ body {
 }
 
 .portfolio-elements {
-  width: calc((100% - 48px) / 3);
-  display: flex;
-  flex-wrap: wrap;
-  column-gap: 24px;
-  row-gap: 48px;
 }
 
 .portfolio-main-btn {
@@ -605,8 +600,6 @@ body {
 
 .portfolio-container > .portfolio-elements {
   flex-basis: calc(100% / 3 - 20px);
-  margin-left: 20px;
-  margin-top: 20px;
 }
 
 .portfolio-link {
@@ -614,7 +607,6 @@ body {
 }
 
 .card-item {
-  padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
 }
