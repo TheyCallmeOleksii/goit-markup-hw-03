@@ -88,7 +88,6 @@ button {
 
 body {
   font-family: var(--primary-font), sans-serif;
-  font-style: normal;
   font-size: 16px;
   line-height: 24px;
   color: var(--color-slate);
@@ -137,10 +136,11 @@ body {
 }
 
 .title {
+  font-size: 20px;
   margin-top: 0;
   margin-bottom: 8px;
   font-weight: 500;
-  font-style: normal;
+  line-height: 24px;
 }
 
 .visually-hidden {
@@ -288,7 +288,7 @@ body {
 }
 
 .hero-title {
-  font-weight: 700px;
+  font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
   margin-top: 0;
@@ -361,7 +361,6 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--color-navy-blue);
-  padding-bottom: 8px;
 }
 
 .superior-txt {
@@ -377,7 +376,6 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--color-slate);
-  padding-bottom: 32px;
 }
 
 /**
@@ -520,6 +518,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--color-cloud);
+  width: 264px;
 }
 
 /**
@@ -583,7 +582,7 @@ body {
 }
 
 .portfolio-container > .title {
-  font-weight: 500px;
+  font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
@@ -600,11 +599,10 @@ body {
 }
 
 .portfolio-container > .portfolio-elements {
-  flex-basis: calc((100% - 72px) / 4);
+  flex-basis: calc((100% - 48px) / 3);
 }
 
 .portfolio-link {
-  padding-bottom: 32px;
 }
 
 .card-item {
